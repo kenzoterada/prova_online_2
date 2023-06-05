@@ -6,6 +6,18 @@ vetor_f13 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,1]
 
 vetor_f14 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
 
+### VARIAVEIS TESTE PARA A QUESTAO 6#######
+teste_quest_6_1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+
+teste_quest_6_2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+
+teste_quest_6_3 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]
+
+teste_quest_6_4 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]
+
+teste_quest_6_5 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0]
+
+
 '''
 
 Os valores dos vetores f11, f12, f13, f14 são os valores da varíavel binário do código em C posterior.
@@ -137,9 +149,18 @@ for tupla in tupla_verificacao:
 
 
 print("################################################################")
+print("teste para verificacao de representacao de numeros\n de acordo com o que se pede na questao 6:\n")
 
+tupla_veri_questao_6 = (ieee754(teste_quest_6_1),
+                       ieee754(teste_quest_6_2),
+                       ieee754(teste_quest_6_3),
+                       ieee754(teste_quest_6_4),
+                       ieee754(teste_quest_6_5),
+    )
 
-
+for tupla in tupla_veri_questao_6:
+    
+    print(tupla)
 
 '''
 
