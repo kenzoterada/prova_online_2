@@ -52,6 +52,12 @@ float f13 = 1.2347e-42;
 float f14 = 1.2347e-45;
 float f15;
 
+float teste_quest_6_1 = 1.401298e-45;
+float teste_quest_6_2 = 1.985345e-45;
+float teste_quest_6_3 = 2.123456e-45;
+float teste_quest_6_4 = 2.537821e-45;
+float teste_quest_6_5 = 2.802597e-45;
+
 int main(void) {
 
     /*Quando a funcao hexa2binary for chamada será impressos os seguintes intens na tela:
@@ -75,6 +81,25 @@ int main(void) {
 
     puts("f14\n");
     hexa2binary(f14);
+    
+    printf("#######################\n");
+    printf("Testes para questao 6: \n");
+    
+    puts("teste_quest_6_1\n");
+    hexa2binary(teste_quest_6_1);
+
+    puts("teste_quest_6_2\n");
+    hexa2binary(teste_quest_6_2);
+
+    puts("teste_quest_6_3\n");
+    hexa2binary(teste_quest_6_3);
+
+    puts("teste_quest_6_4\n");
+    hexa2binary(teste_quest_6_4);
+    
+    puts("teste_quest_6_5\n");
+    hexa2binary(teste_quest_6_5);
+    
 
     return 0;
 }
